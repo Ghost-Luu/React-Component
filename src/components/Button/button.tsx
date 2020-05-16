@@ -1,6 +1,5 @@
 import React from "react";
 import classNames from "classnames";
-import { type } from "os";
 
 /**
  * @description: Button组件封装
@@ -44,7 +43,6 @@ const Button: React.FC<ButtonProps> = (porps) => {
     href,
     ...restProps
   } = porps;
-  console.log(porps);
   // btn, btn-lg, btn-primary
   const classes = classNames("btn", className, {
     [`btn-${btnType}`]: btnType,
