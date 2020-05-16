@@ -4,6 +4,12 @@ import { MenuContext } from "./menu";
 import { IMenuItemProps } from "./menuItem";
 import Icon from "../Icon/icon";
 import Transition from "../Transition/transition";
+
+/**
+ * @description: SubMneu组件
+ * @author: Ghost
+ */
+
 export interface SubMenuProps {
   index?: string;
   title: string;

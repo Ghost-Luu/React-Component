@@ -1,7 +1,10 @@
 import React from "react";
 import { CSSTransition } from "react-transition-group";
 import { CSSTransitionProps } from "react-transition-group/CSSTransition";
-
+/**
+ * @description: Transition组件二次封装
+ * @author: Ghost
+ */
 type AnimationName =
   | "zoom-in-top"
   | "zoom-in-left"

@@ -1,7 +1,10 @@
 import React, { FC, useState, createContext, CSSProperties } from "react";
 import classNames from "classnames";
 import { IMenuItemProps } from "./menuItem";
-
+/**
+ * @description: Mneu组件
+ * @author: Ghost
+ */
 type MenuMode = "horizontal" | "vertical";
 export interface IMenuProps {
   /**默认 active 的菜单项的索引值 */

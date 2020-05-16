@@ -1,6 +1,12 @@
 import React, { useContext } from "react";
 import classNames from "classnames";
 import { MenuContext } from "./menu";
+
+/**
+ * @description: MenuItem组件
+ * @author: Ghost
+ */
+
 export interface IMenuItemProps {
   index?: string;
   disabled?: boolean;

@@ -3,6 +3,10 @@ import { render, RenderResult, fireEvent, wait } from "@testing-library/react";
 import Menu, { IMenuProps } from "./menu";
 import MenuItem from "./menuItem";
 import SubMenu from "./subMenu";
+/**
+ * @description: Menu测试文件
+ * @author: Ghost
+ */
 jest.mock("../Icon/icon", () => {
   return () => {
     return <i className="fa" />;
